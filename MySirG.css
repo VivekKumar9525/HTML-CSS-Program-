@@ -1,0 +1,148 @@
+/* div
+{
+    padding: 10px;
+    font-size:20px;
+    Color:red;
+} */
+/* ID Selector */
+#d1
+{
+    border: 10px solid green;
+    margin-top: 200px;
+    margin-left: 500px;
+    margin-right: 600px;
+    color: green;
+}
+/* Class Selector */
+.c1
+{
+color: blue;
+}
+/* for Button Designing Property*/
+.sbtn
+{
+    border:none;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    margin-left: 1000px;
+}
+.ibtn
+{
+    border:none;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: skyblue;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.wbtn
+{
+    border:none;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: orange;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.ebtn
+{
+    border:none;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+/* Design Navigation Bar */
+.c2
+{
+    background-color: black;
+    overflow: hidden;
+}
+.c2 a
+{
+    padding: 20px;
+    display: block;
+    float: left;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: Arial;
+}
+#log
+{
+    float:right;
+    margin-right: 20px;
+}
+/* for Hover Effect */
+.c2 a:hover, .dropdown:hover .dropbtn
+{
+    background-color: green;
+}
+/* CSS Position */
+.d1c
+{
+    border: 5px solid red;
+    font-size: 20px;
+    /* position: fixed;
+        top: 200;
+        left: 100px; */
+}
+.d2c
+{
+    border: 5px solid blue;
+    font-size: 20px;
+    /* position: relative; */
+    /* top: 50px; */
+}
+.d3c
+{
+    border: 5px solid green;
+    font-size: 20px;
+    /* position:sticky;
+    top: 0px; */
+}
+/* Design DropDown in NavigationBar  */
+.dropdown
+{
+    float: left;
+}
+.dropdown .dropbtn
+{
+    padding: 20px ;
+    color: white;
+    background-color: black;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.dropcontent
+{
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+    width: 150px;
+}
+.dropcontent a
+{
+    display: block;
+    float: none;
+    color: black;
+    padding: 12px 16px;
+}
+.dropdown:hover .dropcontent
+{
+    display: block;
+}
+.dropcontent a:hover
+{
+    background-color: darkgray;
+}
